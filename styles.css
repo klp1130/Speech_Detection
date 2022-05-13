@@ -3,16 +3,16 @@
     }
 
     body {
-      background: #ffc600;
+      background: #4E9E94;
       font-family: 'helvetica neue';
       font-weight: 200;
       font-size: 20px;
     }
 
-    .words {
+   /* .words {
       max-width: 500px;
       margin: 50px auto;
-      background: white;
+      background: #ffffff;
       border-radius: 5px;
       box-shadow: 10px 10px 0 rgba(0,0,0,0.1);
       padding: 1rem 2rem 1rem 5rem;
@@ -21,7 +21,21 @@
       position: relative;
       line-height: 3rem;
     }
-    
+    */
+.words {
+    position: relative;
+    margin: 50px auto;
+    max-width: 500px;
+    padding: 1rem, 2rem, 1rem 5rem;
+    width: 1295px;
+    height: 155px;
+    background-size: 100% 3rem;
+    background: #FFFCF3;
+    border: 5px solid #FFFCF3;
+    box-shadow: 0px 4px 4px #000000;
+    border-radius: 5px;
+}
+
     p {
       margin: 0 0 3rem;
     }
@@ -34,5 +48,5 @@
       left: 30px;
       bottom: 0;
       border: 1px solid;
-      border-color: transparent #efe4e4;
+      border-color: transparent #4E9E94
     }
